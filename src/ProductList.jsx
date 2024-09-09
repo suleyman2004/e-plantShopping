@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from 'react';
+import React,  useState from 'react';
 import './ProductList.css'
 import { addItem, selectTotalItems } from './CartSlice';
 import { useDispatch, useSelector } from 'react-redux';
@@ -237,7 +237,7 @@ const handleProducts = () =>  {
     padding: '15px',
     display: 'flex',
     justifyContent: 'space-between',
-    alignIems: 'center',
+    alignItems: 'center',
     fontSize: '20px',
    }
    const styleObjUl={
